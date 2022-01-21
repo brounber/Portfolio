@@ -1,8 +1,7 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
+
 const About = () => {
-  //  Up To Top Btn
     window.addEventListener("scroll", function(){
       const upToTop = document.querySelector("a.bottom__to__top");
        upToTop.classList.toggle("active", window.scrollY > 0)
@@ -26,7 +25,6 @@ const About = () => {
             </div>
           </div>
       </div>
-      {/* UP TO TOP BTN */}
       <div className="up__to__top__btn">
         <a href="#" className="bottom__to__top">
         <svg

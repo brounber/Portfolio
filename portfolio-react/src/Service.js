@@ -1,7 +1,7 @@
 import React from "react";
 import "./Service.css";
 
-function Service() {
+const Service = () => {
   return (
     <div className="service component__space" id="Services">
 

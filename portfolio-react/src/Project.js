@@ -3,7 +3,7 @@ import "./Project.css";
 import Project2 from './img/portfolio-2.jpg';
 
 
-function Project() {
+const Project = () => {
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">

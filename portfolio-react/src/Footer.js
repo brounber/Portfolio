@@ -1,6 +1,6 @@
 import React from "react";
 import footerImg from "./img/logo (1).png";
-function Footer() {
+const Footer = () => {
   return (
     <div>
       <img src={footerImg} alt="" className="footer__img pointer" />

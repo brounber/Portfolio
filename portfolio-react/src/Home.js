@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./Home.css";
 import logo from "./img/logo.png";
 
-function Home() {
+const  Home = () => {
   // fixed Header
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
